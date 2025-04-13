@@ -349,7 +349,7 @@ export default function FeedbackForm() {
       });
 
       const aiMessage = {
-        text: response.data.output || "Sorry, something went wrong!",
+        text: response.data.response || "Sorry, something went wrong!",
         isUser: false,
       };
 
